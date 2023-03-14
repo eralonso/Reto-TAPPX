@@ -1,0 +1,12 @@
+Encuentra los comandos para:
+1. Mostrar una lista de los paquetes instalados y sus versiones.
+2. Mostrar los metadatos del paquete numpy.
+3. Elimina el paquete numpy.
+4. (Re)instala el paquete numpy.
+5. Congela tus paquetes python y sus versiones en un archivo requirements.txt que tienes que entregar.
+
+1. pip -list
+2. pip show numpy
+3. conda remove numpy
+4. pip install numpy
+5. pip freeze > requirements.txt
