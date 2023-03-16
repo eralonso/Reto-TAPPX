@@ -1,0 +1,17 @@
+from vector import Vector
+
+v1 = Vector([[0.0], [1.0], [2.0], [3.0]])
+v2 = Vector([[0.0, 1.0, 2.0, 3.0]])
+v3 = Vector([[1.0, 3.0]])
+v4 = Vector([[2.0, 4.0]])
+v5 = v4.values.copy()
+print(v3.shape)
+print(v3.values)
+print(v4.shape)
+print(v4.values)
+print(v5)
+print(v3.dot(v4))
+print(v1.values)
+print(v2.values)
+print(v1.T().values)
+print(v2.T().values)
